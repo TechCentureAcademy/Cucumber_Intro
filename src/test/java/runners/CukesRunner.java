@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
 
         },
 
-        tags= {"@login"},
+        tags= {"@MyAccountNegative"},
         features= "src/test/features",
         glue= "src/test/step_definitions",
-        dryRun = false
+        dryRun = true
 )
 public class CukesRunner {}
